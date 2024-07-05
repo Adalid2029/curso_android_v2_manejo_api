@@ -4,7 +4,7 @@ import retrofit2.Call
 import retrofit2.http.*
 
 interface VideoService {
-    @GET("api/v1/videos")
+    @GET("v1/video-tutoriales")
     fun getAllVideos(): Call<List<Video>>
 
 
