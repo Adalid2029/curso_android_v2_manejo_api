@@ -21,7 +21,7 @@ class VideoListActivity : AppCompatActivity() {
         recyclerview.layoutManager = LinearLayoutManager(this)
 
         videoService =
-            RetrofitClient.getClient("https://stacknews.xyz/").create(VideoService::class.java)
+            RetrofitClient.getClient("https://api.stacknews.xyz/").create(VideoService::class.java)
 
         videoService.getAllVideos().enqueue(object : Callback<List<Video>> {
             override fun onResponse(call: Call<List<Video>>, response: Response<List<Video>>) {

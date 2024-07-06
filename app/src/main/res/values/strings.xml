@@ -3,4 +3,5 @@
     <string name="get_videos">Listar</string>
     <string name="titulo_de_video_tutorial">Titulo de Video Tutorial</string>
     <string name="descripcion_de_video_tutorial">Descripcion de Video Tutorial</string>
+    <string name="add_video">Agregar</string>
 </resources>
